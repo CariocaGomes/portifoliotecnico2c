@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner pablo = new Scanner(System.in);
+		System.out.println("Digite a primeira nota");
+		double nota1 = pablo.nextDouble();
+		System.out.println("Digite a segunda nota");
+		double nota2 = pablo.nextDouble();
+		System.out.println("Digite a terceira nota");
+		double nota3 = pablo.nextDouble();
+		System.out.println("Digite a quarta nota");
+		double nota4 = pablo.nextDouble();
+		double media = calculeMedia(nota1, nota2, nota3, nota4);
+		if(aprovado(media) == true){
+		    System.out.println("O Aluno foi aprovado com média "+media);
+		}
+		else{
+		    System.out.println("O Aluno foi reprovado com média "+media);
+		}
+		
+	}
+	public static double calculeMedia(double nota1, double nota2, double nota3, double nota4){
+	    return (nota1+nota2+nota2+nota4)/4;
+	}
+	public static boolean aprovado(double media){
+	    if(media >= 7){
+	        return true;
+	    }
+	    else{
+	        return false;
+	    }
+	}
+}
