@@ -1,0 +1,29 @@
+guilherme@guilherme]r:~$sudoadduserharanhaaracnideos
+Adicionando o usuário
+*haranha
+ao grupo
+aracnídeos
+Adicionando usuário haranha ao grupo aracnídeos
+Concluído.
+haranha@gutlhermelr:/home/guilhermeSpwd
+/home/guilherme
+haranha@guilherme]r:/home/guilherme$cd/home/haranha
+haranha@guilhermelr:§pwd
+/home/haranha
+haranha@guilhermelr:~$mkdirbabalu
+haranha@guilhermeJr:~$mkdirbabalu
+2
+mkdir: não foi possível criar o diretório "babalu": Arquivo existe
+¡haranha@guilhermelr:~$ls-l
+total 8
+drwxrwxr-× 2 haranha haranha 4096 abr 19 09:24
+2
+drwxrwxr-x 2 haranha haranha 4096 abr 19 09:24 babalu
+haranha@guilhermelr:~$ls
+2
+babalu
+haranha@guilhermelr:~$
+
+Quais são as permissões de cada? Dono, Grupo e outros??
+mkdir cria arquivos 
+touch cria diretórios
